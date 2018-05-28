@@ -38,14 +38,15 @@ Offers:
 
 `env - dumps current environment variables.`
 
+## Installation
 
-## Prerequisites
+### Prerequisites
 
 There are none! Short of the standard headers provided with most Linux
 distributions, there's nothing fancy going on here. Yet. Maybe ncurses
 at some point..... Possibility? Maybe.
 
-### Installation
+### Building
 
 Run the makefile. It should drop a binary named shieshell in the bin/
 directory. If it doesn't, it likely didn't compile.
@@ -69,7 +70,14 @@ ShieShell v.0.1.1
 prompt (\u@\h)[\d]\n-->
 ```
 
-### The Prompt
+### Installing
+
+If you really must, you can copy it yourself to wherever you want  it to be installted at.
+It's not meant to really be used more than once or twice for funsies at this point.
+
+# Okay, what can I do with it?
+
+## The Prompt
 This is the only customizable part right now.
 sadly, due to the lack of " "able arguments, setting it is
 a little limited. It's a good introduction to environment
@@ -96,6 +104,17 @@ There are four escapes available for the prompt.
 `\d` is replaced with the current working directory.
 `\h` is replaced with the host name.
 `\n` triggers a new line.
+
+## Make It Better
+
+It's not a whole lotta code. It's hopefully not too hard to read.
+
+Expanding it could be fun, too! Think of a few things that you'd want,
+try your hand at implementing if you want!
+
+Perhaps we could create a better shell together via the awesome powers
+of open-source collaboration! Or not.....
+
 
 ### Acknowledgments
 https://github.com/brenns10/lsh
