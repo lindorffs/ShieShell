@@ -11,12 +11,20 @@ files and directories. There's some other fun stuff going on, so
 stick around it might get interesting?
 
 Offers:
-	* Single line commands
-	* Whitespace seperated arguments
-	* No argument quotation, or escaping characters
-	* No piping, or redirection
-	* Enviroment variable (only prompt, but can be expanded quite easily)
-	* cd, help, exit, version, set, env
+
+* Single line commands
+
+* Whitespace seperated arguments
+
+* No argument quotation, or escaping characters
+
+* No piping, or redirection
+
+* Enviroment variable (only prompt, but can be expanded quite easily)
+
+* cd, help, exit, version, set, env
+
+
 
 `cd - change directory. Takes one argument. That is the directory.`
 
